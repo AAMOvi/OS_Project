@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-kacchiOS",
+			"type": "shell",
+			"command": "cd kacchiOS && make clean && make",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build-kacchiOS",
+			"type": "shell",
+			"command": "cd kacchiOS; make clean; make",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
